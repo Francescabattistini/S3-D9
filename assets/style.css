@@ -1,0 +1,53 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  text-align: center;
+  box-sizing: border-box;
+}
+header {
+  display: inline-block;
+  padding-top: 2em;
+  margin: 0 auto;
+  padding: 1em;
+  min-width: 12em;
+}
+header p {
+  font-weight: 300;
+  line-height: 1.5em;
+}
+
+h1 {
+  font-size: 2em;
+  margin-bottom: 0.1em;
+}
+.contenitore {
+  background-color: black;
+}
+.casella {
+  display: inline-block;
+  text-align: center;
+  margin: 0.5em;
+  border-radius: 3px;
+  padding: 0.5em;
+  width: 1em;
+  background-color: white;
+}
+
+button {
+  background-color: #f55951;
+  border: none;
+  padding: 0.5em;
+  color: white;
+  font-family: "Bebas Neue", sans-serif;
+  font-size: 1.5em;
+  margin: 0 0 1em 0;
+  border-radius: 5px;
+}
+
+button:hover {
+  cursor: pointer;
+}
