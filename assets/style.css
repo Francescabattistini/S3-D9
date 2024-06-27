@@ -15,7 +15,10 @@ body {
   background-color: #f1e8e6;
   color: #543c52;
 }
-
+.blue {
+  background-color: blueviolet;
+}
+/*
 header {
   margin-top: 2em;
 }
@@ -88,11 +91,7 @@ input {
 button {
   background-color: #f55951;
   border: none;
-  padding: 0.5em;
-  color: white;
-  font-family: "Bebas Neue", sans-serif;
-  font-size: 1.5em;
-  margin: 0 0 1em 0;
+  padin: 0 0 1em 0;
   border-radius: 5px;
 }
 
@@ -103,3 +102,8 @@ button:hover {
 footer div {
   height: 50px;
 }
+ding: 0.5em;
+  color: white;
+  font-family: "Bebas Neue", sans-serif;
+  font-size: 1.5em;
+  marg */
