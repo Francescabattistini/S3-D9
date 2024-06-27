@@ -1,20 +1,30 @@
 <!DOCTYPE html>
-<html lang="it">
+<html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
     <link rel="stylesheet" href="assets/style.css" />
     <title>tombola</title>
   </head>
   <body>
-    <header><h1 id="tombola">Tombola</h1></header>
+    <header><h1>-Tombola-</h1></header>
     <main>
-      <div id="contenitore"></div>
-      <form>
-        <button id="play">GIOCA!</button>
-      </form>
+      <section>
+        <article id="game-board"></article>
+        <article id="extraction-zone">
+          <div id="number-slot"></div>
+        </article>
+        <article id="player-zone">
+          <form id="quantita-tabelline">
+            <label for="number">Quante tabelline vuoi?</label>
+            <input type="number" id="tab-num" value="1" max="5" />
+            <button id="play">GIOCA!</button>
+          </form>
+        </article>
+      </section>
     </main>
-    <footer></footer>
+    <footer><div></div></footer>
     <script src="javascript.js"></script>
   </body>
 </html>

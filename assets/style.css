@@ -4,37 +4,85 @@
   box-sizing: border-box;
 }
 
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+
 body {
   text-align: center;
   box-sizing: border-box;
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  background-color: #f1e8e6;
+  color: #543c52;
 }
+
 header {
-  display: inline-block;
-  padding-top: 2em;
-  margin: 0 auto;
-  padding: 1em;
-  min-width: 12em;
-}
-header p {
-  font-weight: 300;
-  line-height: 1.5em;
+  margin-top: 2em;
 }
 
 h1 {
-  font-size: 2em;
-  margin-bottom: 0.1em;
+  font-size: 3em;
 }
-.contenitore {
-  background-color: black;
+
+#game-board {
+  text-align: left;
+  width: 40rem;
+  margin: 1em auto;
+  border-radius: 5px;
+  background-color: #edd2cb;
 }
-.casella {
+
+.game-cell {
   display: inline-block;
   text-align: center;
   margin: 0.5em;
   border-radius: 3px;
   padding: 0.5em;
-  width: 1em;
+  width: 4em;
   background-color: white;
+}
+
+.extracted-number {
+  background-color: #f55951;
+  color: white;
+}
+
+.number {
+  height: 1em;
+  border-radius: 3px;
+  width: 1em;
+  margin: 1em auto;
+  padding: 1em;
+  background-color: #f55951;
+  color: white;
+}
+
+#quantita-tabelline {
+  margin-top: 2em;
+}
+
+.player-tab {
+  border-radius: 5px;
+  width: 500px;
+  margin: 2em auto;
+  background-color: #edd2cb;
+}
+
+form {
+  background-color: #edd2cb;
+  width: 500px;
+  margin: auto;
+  border-radius: 5px;
+}
+label {
+  display: block;
+  margin: 1em 0;
+  padding: 1em 0;
+}
+
+input {
+  width: 12em;
+  border-radius: 5px;
 }
 
 button {
@@ -50,4 +98,8 @@ button {
 
 button:hover {
   cursor: pointer;
+}
+
+footer div {
+  height: 50px;
 }
